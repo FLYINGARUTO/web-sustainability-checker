@@ -40,14 +40,13 @@ To help replicate the results of this project, two additional scripts are provid
    ```bash
    chmod +x YOUR_PATH/batch-lighthouse.sh
    YOUR_PATH/batch-lighthouse.sh
-
+```
 
 2. JSON to CSV Converter
+**File:** `json2csv.py`
 
-File: json2csv.py
-
-Extracts relevant metrics from the Lighthouse JSON reports and compiles them into a CSV file.
-Before running it, remember to configure the report folder address.
+- Extracts relevant metrics from the Lighthouse JSON reports and compiles them into a CSV file.
+- Before running it, remember to configure the report folder address.
 
 ## Notes
 
