@@ -20,13 +20,10 @@ The purpose of these extensions is to evaluate sustainability-related aspects of
 In the config file (e.g., green-config2.js), update the paths so that they correctly point to the location of your custom gatherers and audits.
 
 4. Run Lighthouse with the custom config:
-```bash
+   ```bash
    lighthouse --config-path=YOUR_CONFIG_PATH/green-config2.js --view https://www.WEBSITE_HERE.com
-
-
-   Replace YOUR_CONFIG_PATH with the path to configuration files of this repository.
-
-   Replace https://www.WEBSITE_HERE.com with the target website you want to audit.
+   #Replace YOUR_CONFIG_PATH with the path to configuration files of this repository.
+   #Replace https://www.WEBSITE_HERE.com with the target website you want to audit.
 
 ## Notes
 
