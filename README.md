@@ -24,6 +24,30 @@ In the config file (e.g., green-config2.js), update the paths so that they corre
    lighthouse --config-path=YOUR_CONFIG_PATH/green-config2.js --view https://www.WEBSITE_HERE.com
    #Replace YOUR_CONFIG_PATH with the path to configuration files of this repository.
    #Replace https://www.WEBSITE_HERE.com with the target website you want to audit.
+---
+
+## 🔄 Reproducibility
+
+To help replicate the results of this project, two additional scripts are provided:
+
+1. Batch Lighthouse Runner
+**File:** `batch-lighthouse.sh`
+
+- Runs Lighthouse audits in batch mode for a list of websites(add it to the **urls** in the file).  
+- For each website, a JSON report will be generated in the specified output folder.  
+
+**Example usage:**
+   ```bash
+   chmod +x YOUR_PATH/batch-lighthouse.sh
+   YOUR_PATH/batch-lighthouse.sh
+
+
+2. JSON to CSV Converter
+
+File: json2csv.py
+
+Extracts relevant metrics from the Lighthouse JSON reports and compiles them into a CSV file.
+Before running it, remember to configure the report folder address.
 
 ## Notes
 
